@@ -1,1 +1,46 @@
-/* CSS for your imitation here */
+
+.titel{
+  transform: skew(336deg);
+  text-shadow: 10px 5px #222;
+ font-family: "Alegreya Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 88px;
+  text-align: center ;
+  line-height: 0.8;
+  display: flex;
+    justify-content:top;
+            align-items: top; 
+            height: 100vh; 
+            margin: 0; 
+}
+main {
+  background-color: #00c;
+  color: white;
+  width: 700px;
+  height: 1000px;
+background: radial-gradient(circle,  blue, darkblue);
+  
+}
+.yellow {
+  font-size:75px;
+  hight: 200px;
+  width:700px;
+  background-color: yellow;
+  color:red;
+  padding:4px;
+}
+.red{
+  color:red;
+  font-size:50px;
+  text-align: center ;
+  display: flex;
+    justify-content:center;
+            align-items: center; 
+         
+  
+}
+
+.space-above {
+  padding-top: 45px;
+}
