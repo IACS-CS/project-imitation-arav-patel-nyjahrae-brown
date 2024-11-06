@@ -13,6 +13,9 @@
             align-items: top; 
             height: 100vh; 
             margin: 0; 
+            padding-left: 50px;
+             -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(28, 9, 113);
 }
 main {
   background-color: #00c;
@@ -23,22 +26,29 @@ background: radial-gradient(circle,  blue, darkblue);
   
 }
 .yellow {
+  font-weight: 800;
   font-size:75px;
-  hight: 200px;
-  width:700px;
-  background-image: url("Untitled2.svg");
+  height: 135px;
+  width:692px;
+  background-image: url("yellocropped.png");
   background-size: cover;
   background-position: top center;
   color:red;
   padding:4px;
+  font-family: "Work Sans", serif;
 }
-.red{
+.red{ 
   color:red;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
   font-size:50px;
   text-align: center ;
   display: flex;
     justify-content:center;
             align-items: center; 
+            font-family: "Herr Von Muellerhoff", serif;
+            font-weight: 1000;
+
          
   
 }
