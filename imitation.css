@@ -11,11 +11,11 @@
   display: flex;
     justify-content:top;
             align-items: top; 
-            height: 100vh; 
+           
             margin: 0; 
-            padding-left: 50px;
-             -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(28, 9, 113);
+            padding-left: 150px;
+             -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: rgb(24, 9, 103);
 }
 main {
   background-color: #00c;
@@ -23,13 +23,15 @@ main {
   width: 700px;
   height: 1000px;
 background: radial-gradient(circle,  blue, darkblue);
+display: flex;
+    flex-direction: column;
   
 }
 .yellow {
   font-weight: 800;
   font-size:75px;
   height: 135px;
-  width:692px;
+  width:693px;
   background-image: url("yellocropped.png");
   background-size: cover;
   background-position: top center;
@@ -46,8 +48,9 @@ background: radial-gradient(circle,  blue, darkblue);
   display: flex;
     justify-content:center;
             align-items: center; 
-            font-family: "Herr Von Muellerhoff", serif;
+            font-family: "Great Vibes", cursive;
             font-weight: 1000;
+            transform: skew(336deg);
 
          
   
@@ -55,4 +58,10 @@ background: radial-gradient(circle,  blue, darkblue);
 
 .space-above {
   padding-top: 45px;
+}
+
+img {
+  height: 600px;
+  align-self: center;
+  transform: skewY(13deg);
 }
