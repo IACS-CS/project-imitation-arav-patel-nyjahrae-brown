@@ -1,8 +1,97 @@
 /* Code for all screen sizes */
+/* Main container styling */
+.titel{
+  transform: skew(336deg);
+  text-shadow: 10px 5px #222;
+ font-family: "Alegreya Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 100px;
+  text-align: center ;
+  line-height: 0.8;
+  display: flex;
+    justify-content:top;
+            align-items: top; 
+           
+            margin: 0; 
+            padding-left: 150px;
+             -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: rgb(24, 9, 103);
+}
+main {
+  background-color: #00c;
+  color: white;
+  width: 700px;
+  height: 978px;
+background: radial-gradient(circle,  blue, darkblue);
 
-/* BEGIN MOBILE RULES */
+  
+}
+.yellow {
+  font-weight: 800;
+  font-size:75px;
+  height: 135px;
+  width:693px;
+  background-image: url("yellocropped.png");
+  background-size: cover;
+  background-position: top center;
+  color:red;
+  padding:4px;
+  font-family: "Work Sans", serif;
+}
+.red{ 
+  color:red;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  font-size:50px;
+  text-align: center ;
+  display: flex;
+    justify-content:center;
+            align-items: center; 
+            font-family: "Great Vibes", cursive;
+            font-weight: 1000;
+            transform: skew(336deg);
+
+         
+  
+}
+
+.space-above {
+  padding-top: 45px;
+}
+
+img {
+  height: 650px;
+  transform: skewY(13deg);
+  width: 700px; 
+   margin-top: -95px;
+   float: right;
+  
+   
+}
+.short-line {
+  border-left-width: 50px;    
+  border-bottom-width: 4px;
+  border-style: solid;
+  border-right-color: rgb(255, 119, 0); 
+  border-bottom-color: rgb(255, 119, 0); 
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: 0;
+  height: 0;
+   position: relative;
+  top: -60px;        
+  left: 185px; 
+   transform: skewY(350deg);
+}
+    
+   /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 768px) {
   /* Code for mobile phones only: */
+  
+
+/* Main container styling */
+
 
   /* Mobile label */
   main::before {
@@ -16,6 +105,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1399px) {
   /* Code for medium width and bigger : */
 
+
   /* Laptop label */
   main::before {
     content: "Laptop";
@@ -27,6 +117,7 @@
 /* BEGIN WIDE SCREEN RULES */
 @media only screen and (min-width: 1400px) {
   /* Code for wide screen only */
+
 
   /* Widescreen label */
   main::before {

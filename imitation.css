@@ -5,7 +5,7 @@
  font-family: "Alegreya Sans", sans-serif;
   font-weight: 900;
   font-style: italic;
-  font-size: 88px;
+  font-size: 100px;
   text-align: center ;
   line-height: 0.8;
   display: flex;
@@ -21,7 +21,7 @@ main {
   background-color: #00c;
   color: white;
   width: 700px;
-  height: 1000px;
+  height: 978px;
 background: radial-gradient(circle,  blue, darkblue);
 
   
@@ -61,21 +61,26 @@ background: radial-gradient(circle,  blue, darkblue);
 
 img {
   height: 650px;
-  align-self: center;
   transform: skewY(13deg);
-  width:700px; 
-  padding-bottom: 300px;
-  margin-bottom: 400px;
-
+  width: 700px; 
+   margin-top: -95px;
+   float: right;
+  
    
 }
 .short-line {
-  width: 50px;    
-  border: none;
-  border-top: 3px solid rgb(255, 119, 0); 
+  border-left-width: 50px;    
+  border-bottom-width: 4px;
+  border-style: solid;
+  border-right-color: rgb(255, 119, 0); 
+  border-bottom-color: rgb(255, 119, 0); 
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: 0;
+  height: 0;
    position: relative;
   top: -60px;        
-  left: 155px; 
+  left: 185px; 
    transform: skewY(350deg);
     
 
