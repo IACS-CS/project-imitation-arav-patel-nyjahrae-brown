@@ -23,6 +23,7 @@ main {
   width: 700px;
   height: 978px;
 background: radial-gradient(circle,  blue, darkblue);
+margin: auto;
 
   
 }

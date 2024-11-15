@@ -8,13 +8,13 @@
   font-style: italic;
   font-size: 100px;
   text-align: center ;
-  line-height: 0.8;
+  line-height: 0.8; 
   display: flex;
-    justify-content:top;
-            align-items: top; 
+    justify-content:center;
+            align-items: center; 
            
             margin: 0; 
-            padding-left: 150px;
+            
              -webkit-text-stroke-width: 5px;
   -webkit-text-stroke-color: rgb(24, 9, 103);
 }
@@ -24,17 +24,18 @@ main {
   width: 700px;
   height: 978px;
 background: radial-gradient(circle,  blue, darkblue);
+margin: auto;
 
   
 }
 .yellow {
-  font-weight: 800;
+  font-weight: 800px;
   font-size:75px;
   height: 135px;
   width:693px;
   background-image: url("yellocropped.png");
   background-size: cover;
-  background-position: top center;
+  background-position: bottom center;
   color:red;
   padding:4px;
   font-family: "Work Sans", serif;
@@ -86,9 +87,33 @@ img {
 }
     
    /* BEGIN MOBILE RULES */
-@media only screen and (max-width: 768px) {
+@media only
   /* Code for mobile phones only: */
-  
+  .titel {
+    font-size:40px; 
+    padding-left: 20px; 
+    text-shadow: 2px 1px #222;
+    transform: skew (0deg);
+  }
+
+  main {
+    width: 90vw; 
+    height: 775px; 
+  }
+
+  .yellow {
+    font-size: 80px; 
+    height: 70px;
+    width: 90vw; 
+    padding: 2px;
+  }
+
+  img {
+    height: 75vh; 
+    width: 100vw; 
+    margin-top: -100px;
+  }
+
 
 /* Main container styling */
 
@@ -117,6 +142,7 @@ img {
 /* BEGIN WIDE SCREEN RULES */
 @media only screen and (min-width: 1400px) {
   /* Code for wide screen only */
+
 
 
   /* Widescreen label */
