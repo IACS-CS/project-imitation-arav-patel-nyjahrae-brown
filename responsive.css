@@ -97,8 +97,8 @@ img {
   }
 
   main {
-    width: 350px; 
-    height: 550px;
+    width: 450px; 
+    height: 680px;
   }
 
   .yellow {
@@ -106,7 +106,8 @@ img {
     height: 70px;
     width: 90vw; 
     padding: 2px;
-    font-weight: px;
+    font-weight: 20px;
+    
   }
 
   img {
@@ -120,7 +121,7 @@ img {
   .short-line {
     position: relative;
   top: -60px;        
-  margin-left: 85px; 
+  margin-left: 230px; 
    border-left-width: 25px;    
   border-bottom-width: 2px;
   
